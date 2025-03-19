@@ -92,7 +92,7 @@ const BrowserContent = ({onClose}: {onClose?: AssetSourceComponentProps['onClose
       subscriptionAsset?.unsubscribe()
       subscriptionTag?.unsubscribe()
     }
-  }, [client, dispatch])
+  }, [])
 
   return (
     <PortalProvider element={portalElement}>
